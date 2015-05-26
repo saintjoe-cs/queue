@@ -4,7 +4,7 @@ function distribute(nums, queues, n, digit) {
     queues[nums[i]%10].enqueue(nums[i]);
     }
   else {
-    queues[Math.floor(nums[i] / 10)].enqueue(nums[i]);
+    queues[(Math.floor(nums[i]/10))].enqueue(nums[i]);
     }
   }
 }
@@ -20,7 +20,7 @@ function collect(queues, nums) {
 
 function dispArray(arr) {
  for (var i = 0; i < arr.length; ++i) {
-   write(arr[i] + " ");
+   putstr(arr[i] + " ");
    }
  }
 
