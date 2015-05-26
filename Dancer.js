@@ -1,7 +1,3 @@
-function putstr(val) {
-  write(val);
-  }
-
 function Dancer(name, sex) {
  this.name = name;
  this.sex = sex;
