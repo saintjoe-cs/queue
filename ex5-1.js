@@ -1,5 +1,7 @@
-load('queue.js');
+load('Queue.js');
+
 // test program
+
 var q = new Queue();
 q.enqueue("Meredith");
 q.enqueue("Cynthia");
