@@ -1,6 +1,7 @@
-// patient.js defines ed, a priority queue
-load('patient.js');
+load('PriorityQueue.js');
+load('Patient.js');
 
+var ed = new PriorityQueue();
 var p = new Patient("Smith",5);
 ed.enqueue(p);
 p = new Patient("Jones", 4);
