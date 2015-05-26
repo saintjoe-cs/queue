@@ -1,6 +1,7 @@
+load('Queue.js');
+load('Dancer.js');
+
 // test program
-load('queue.js');
-load('dance.js');
 var maleDancers = new Queue();
 var femaleDancers = new Queue();
 getDancers(maleDancers, femaleDancers);
