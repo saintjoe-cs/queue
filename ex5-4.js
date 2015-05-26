@@ -1,12 +1,13 @@
-load('queue.js');
+load('Queue.js');
 load('radix.js');
+  
 var queues = [];
 for (var i = 0; i < 10; ++i) {
- queues[i] = new Queue();
+  queues[i] = new Queue();
 }
 var nums = [];
 for (var i = 0; i < 10; ++i) {
- nums[i] = Math.floor(Math.floor(Math.random() * 101));
+  nums[i] = Math.floor(Math.floor(Math.random() * 101));
 }
 print("Before radix sort: ");
 dispArray(nums);
