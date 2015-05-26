@@ -10,7 +10,7 @@ function getDancers(males, females) {
     names[i] = names[i].trim();
    }
   // Remove bogus line
-  arr.splice(arr.length-1,1);
+  names.splice(names.length-1,1);
 
   for (var i = 0; i < names.length; ++i) {
     var dancer = names[i].split(" ");
